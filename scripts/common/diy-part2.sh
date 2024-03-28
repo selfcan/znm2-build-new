@@ -18,3 +18,7 @@ echo -e 'CONFIG_DEVEL=y\nCONFIG_CCACHE=y' >> .config
 
 # design修改proxy链接
 sed -i -r "s#navbar_proxy = 'openclash'#navbar_proxy = 'passwall'#g" feeds/luci/themes/luci-theme-design/luasrc/view/themes/design/header.htm
+git clone https://github.com/selfcan/luci-app-parentcontrol.git package/luci-app-parentcontrol
+git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/luci-app-autotimeset
+./scripts/feeds update -a
+./scripts/feeds install -a
