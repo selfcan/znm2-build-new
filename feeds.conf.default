@@ -7,3 +7,4 @@ src-git passwall_packages https://github.com/zhoufla/openwrt-passwall-packages.g
 src-git passwall https://github.com/zhoufla/openwrt-passwall.git;4.75.9
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
+src-git opentopd  https://github.com/sirpdboy/sirpdboy-package
